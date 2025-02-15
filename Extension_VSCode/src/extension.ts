@@ -59,33 +59,44 @@ class GitProjectsProvider implements vscode.TreeDataProvider<ProjectItem> {
                 new SeparatorItem(),
 
                 new LabelItem('Codes Version 1.x - ESP12'), 
-                new ProjectItem('V1.x.Bases - LED', 'code', 'https://github.com/CREPP-Codes/V1.x-Bases.LEDs'),
-                new ProjectItem('V1.x.Bases - Potentiomètre', 'code', 'https://github.com/CREPP-Codes/V1.x-Bases.Potentiometre'),
-                new ProjectItem('V1.x.Bases - Boutons', 'code', 'https://github.com/CREPP-Codes/V1.x-Bases.Buttons'),
+                new ProjectItem('Bases - LED', 'code', 'https://github.com/CREPP-Codes/V1.x-Bases.LEDs'),
+                new ProjectItem('Bases - Potentiomètre', 'code', 'https://github.com/CREPP-Codes/V1.x-Bases.Potentiometre'),
+                new ProjectItem('Bases - Boutons', 'code', 'https://github.com/CREPP-Codes/V1.x-Bases.Buttons'),
 
-                new ProjectItem('V1.x.Base - BME280', 'code', 'https://github.com/user/project2.git'),
-                new ProjectItem('V1.x.Base - RTC', 'code', 'https://github.com/user/project2.git'),
-                new ProjectItem('V1.x.Base - HC-SR04', 'code', 'https://github.com/user/project2.git'),
+                new ProjectItem('Sensors - OLED', 'code', 'https://github.com/CREPP-Codes/V1.x-Display.OLED'),
+                new ProjectItem('Sensors - BME280', 'code', 'https://github.com/CREPP-Codes/V1.x-Sensors.BME280'),
+                new ProjectItem('Sensors - RTC', 'code', 'https://github.com/CREPP-Codes/V1.x-Sensors.RTC'),
+                new ProjectItem('Sensors - HC-SR04', 'code', 'https://github.com/CREPP-Codes/V1.x-Sensors.HC-SR04'),
+                new ProjectItem('Sensors - Interruptions', 'code', 'https://github.com/CREPP-Codes/V1.x-Sensors.Interrupts'),
+                new ProjectItem('Sensors - Photoresistance', 'code', 'https://github.com/CREPP-Codes/V1.x-Sensors.Photoresistance'),
 
-                new ProjectItem('V1.x.Sensors - Serveur WEB minimaliste', 'code', 'https://github.com/user/project2.git'),
-                new ProjectItem('V1.x.Base - Serveur WEB avec BME280', 'code', 'https://github.com/user/project2.git'),
+                new ProjectItem('Web - Serveur WEB minimaliste', 'code', 'https://github.com/user/project2.git'),
+                new ProjectItem('Web - Serveur WEB avec BME280', 'code', 'https://github.com/user/project2.git'),
 
-                new SeparatorItem(),
-                new ProjectItem('V1.x.Tools - Scanner I2C', 'wrench', 'https://github.com/user/project2.git'),
+
+                new ProjectItem('Tools - Scanner I2C', 'wrench', 'https://github.com/CREPP-Codes/V1.x-Sensors.Scanner_I2C'),
                 
                 new SeparatorItem(),
 
                 new LabelItem('Codes Version 2.x - Pico'), 
-                new ProjectItem('V2.x.Base - LED', 'code','https://github.com/CREPP-Codes/V1.x-Bases.LEDs'),
-                new ProjectItem('V2.x.Base - Potentiomètre', 'code','https://github.com/CREPP-Codes/V1.x-Bases.Potentiometre'),
-                new ProjectItem('V2.x.Base - Boutons', 'code','https://github.com/user/project2.git'),
-                new ProjectItem('V2.x.Base - BME280', 'code','https://github.com/user/project2.git'),
-                new ProjectItem('V2.x.Base - RTC', 'code','https://github.com/user/project2.git'),
-                new ProjectItem('V2.x.Base - HC-SR04', 'code','https://github.com/user/project2.git'),
+                new ProjectItem('Bases - LED', 'code', 'https://github.com/CREPP-Codes/V2.x-Bases.LEDs'),
+                new ProjectItem('Bases - Potentiomètre', 'code', 'https://github.com/CREPP-Codes/V2.x-Bases.Potentiometre'),
+                new ProjectItem('Bases - Boutons', 'code', 'https://github.com/CREPP-Codes/V2.x-Bases.Buttons'),
+                
+                new ProjectItem('Screens - OLED', 'code', 'https://github.com/CREPP-Codes/V2.x-Display.OLED'),
+                new ProjectItem('Sensors - BME280', 'code', 'https://github.com/CREPP-Codes/V2.x-Sensors.BME280'),
+                new ProjectItem('Sensors - RTC', 'code', 'https://github.com/CREPP-Codes/V2.x-Sensors.RTC'),
+                new ProjectItem('Sensors - HC-SR04', 'code', 'https://github.com/CREPP-Codes/V2.x-Sensors.HC-SR04'),
+                new ProjectItem('Sensors - Accéléromètre', 'code', 'https://github.com/CREPP-Codes/V2.x-Sensors.Accelerometre'),
+                new ProjectItem('Sensors - Interruptions', 'code', 'https://github.com/CREPP-Codes/V2.x-Sensors.Interrupts'),
+                new ProjectItem('Sensors - Photoresistance', 'code', 'https://github.com/CREPP-Codes/V2.x-Sensors.Photoresistance'),
+                new ProjectItem('Sensors - Serveur WEB minimaliste', 'code','https://github.com/user/project2.git'),
+                new ProjectItem('Web - Serveur WEB avec BME280', 'code','https://github.com/user/project2.git'),
+                new ProjectItem('Connectivity - NRF24', 'hubot','https://github.com/user/project2.git'),
 
-                new ProjectItem('V2.x.Sensors - Serveur WEB minimaliste', 'code','https://github.com/user/project2.git'),
-                new ProjectItem('V2.x.Base - Serveur WEB avec BME280', 'code','https://github.com/user/project2.git'),
-                new ProjectItem('V2.x.Bot - NRF24', 'hubot','https://github.com/user/project2.git'),
+
+
+                new ProjectItem('Tools - Scanner I2C', 'wrench', 'https://github.com/CREPP-Codes/V2.x-Sensors.Scanner_I2C'),
 
                 new SeparatorItem(),
 
